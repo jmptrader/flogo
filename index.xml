@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Flogo - Docs and Tutorials</title>
+    <link>https://tibcosoftware.github.io/flogo/</link>
+    <description>Recent content on Project Flogo - Docs and Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="https://tibcosoftware.github.io/flogo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building your first activity</title>
+      <link>https://tibcosoftware.github.io/flogo/extensions-developer/create-activity/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/extensions-developer/create-activity/</guid>
+      <description>Adding a new activity to Flogo is quite easy and we&amp;rsquo;ve outlined the steps for you in this howto guide. This guide will walk you through the steps required to create a simple activity which can also be used in the Flogo web UI. We&amp;rsquo;ll be leveraging the flogogen scafolding CLI available via the flogo-cli repo. See below for details on installing Flogo + CLI.
+Prerequisites Before you can get started with this guide you need to make sure you have the right prerequisites installed:</description>
+    </item>
+    
+    <item>
+      <title>Environment variables</title>
+      <link>https://tibcosoftware.github.io/flogo/configuration/environment-vars/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/configuration/environment-vars/</guid>
+      <description>List of environment variables to configure the flogo engine
+   Environment name Default value Info     FLOGO_LOG_DTFORMAT &amp;ldquo;2006-01-02 15:04:05.000&amp;rdquo; Sets the log date and time format   FLOGO_LOG_LEVEL &amp;ldquo;INFO&amp;rdquo; Sets the log level   FLOGO_RUNNER_TYPE &amp;ldquo;POOLED&amp;rdquo; Sets the type of the runner   FLOGO_RUNNER_WORKERS 5 Sets the number of workers   FLOGO_RUNNER_QUEUE 50 Sets the runner queue size   FLOGO_CONFIG_PATH &amp;ldquo;flogo.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with the Web UI</title>
+      <link>https://tibcosoftware.github.io/flogo/getting-started/getting-started-webui/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/getting-started/getting-started-webui/</guid>
+      <description>In this document we’ll discuss how to download the Flogo Web UI, a zero-code development environment for IoT and microservices.
+Prerequisites Ensure that the following prerequisites have been fulfilled.
+Docker Docker is required to pull the Web UI, as it is publicly available via hub.docker.com. If you&amp;rsquo;re running Windows 10, Linux or macOS/OSX then the latest version of Docker should be installed and can be found at the link below.</description>
+    </item>
+    
+    <item>
+      <title>How-to for IOT</title>
+      <link>https://tibcosoftware.github.io/flogo/iot/how-to/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/iot/how-to/</guid>
+      <description>Creating a flogo application is easy andand we&amp;rsquo;ve outlined the steps for you in this howto guide. This guide will walk you through the steps required to create a simple flogo application which can also be used on an IOT device.
+Prerequisites Before you can get started building IOT applications with flogo, you need to have the following prerequisites installed:
+ The Go programming language should be installed. In order to simplify development and building in Go, we recommend using the gb build tool.</description>
+    </item>
+    
+    <item>
+      <title>Application Configuration Provider</title>
+      <link>https://tibcosoftware.github.io/flogo/extensions-developer/config-provider/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/extensions-developer/config-provider/</guid>
+      <description>Unless you want to provide the application configuration (for example: flogo.json) in a different way or format you should not worry about this feature.
+We have provided an extension mechanism for you to override the default way of providing the application configuration if needed.
+Topics  Default behavior Embedded configuration Custom configuration  Default behavior Out of the box, the default behavior will be as follows:
+ Configuration will be passed to the engine in the JSON format Default path for the JSON file will be in the same directory as the application&amp;rsquo;s binary Default name for the JSON file will be &amp;ldquo;flogo.</description>
+    </item>
+    
+    <item>
+      <title>Flogo for Raspberry Pi</title>
+      <link>https://tibcosoftware.github.io/flogo/iot/device-pi/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/iot/device-pi/</guid>
+      <description>You can run your Flogo application on a Raspberry Pi device. This documents contains all relevant information on this device including how to build.
+Build To build a flogo application for Raspberry Pi, you simply use the build command with the appropriate enviroment variables set.
+On mac or linux you execute the following command:
+env GOARM=6 GOARCH=arm GOOS=linux flogo build -o  On windows you excute the following commands:</description>
+    </item>
+    
+    <item>
+      <title>Getting started with the CLI</title>
+      <link>https://tibcosoftware.github.io/flogo/getting-started/getting-started-cli/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/getting-started/getting-started-cli/</guid>
+      <description>Flogo provides two different CLIs depending on your needs.
+ flogo: This CLI provides app/flow dev support. You can use this to create your applications, build applications, install new extensions, etc. This can also be used in conjunction with your CI/CD pipeline. flogogen: A scafolding CLI used by extensions (activity/trigger) developers to build new extensions.  For additional information, please refer to the README at the flogo-cli repo.</description>
+    </item>
+    
+    <item>
+      <title>Continuously testing Flogo activities</title>
+      <link>https://tibcosoftware.github.io/flogo/extensions-developer/continuously-testing-flogo-activities/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/extensions-developer/continuously-testing-flogo-activities/</guid>
+      <description>Depending on where you store the source code and how publicly you want to have the code available you have a few options. In this post I&amp;rsquo;ll use Jenkins to show how I can test activities with a local git server and I&amp;rsquo;ll use Travis-CI for activities on GitHub
+Intro Before we begin let me quickly walk through my project structure as some of the scripts are based on that structure.</description>
+    </item>
+    
+    <item>
+      <title>Flogo for Intel Edison</title>
+      <link>https://tibcosoftware.github.io/flogo/iot/device-edison/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/iot/device-edison/</guid>
+      <description>You can run your Flogo application on a Edison device. This documents contains all relevant information on this device including how to build.
+Build To build a flogo application for Edison, you simply use the build command with the appropriate enviroment variables set.
+On mac or linux you execute the following command:
+env GOARCH=386 GOOS=linux flogo build -o  On windows you excute the following commands:
+SET GOARCH=386 SET GOOS=linux flogo build -o  This will compile your application and place the binary in the bin directory.</description>
+    </item>
+    
+    <item>
+      <title>Flogo for C.H.I.P</title>
+      <link>https://tibcosoftware.github.io/flogo/iot/device-chip/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/iot/device-chip/</guid>
+      <description>You can run your Flogo application on a C.H.I.P. device. This documents contains all relevant information on this device including how to build.
+Build To build a flogo application for C.H.I.P., you simply use the build command with the appropriate enviroment variables set.
+On mac or linux you execute the following command:
+env GOARM=7 GOARCH=arm GOOS=linux flogo build -o  On windows you excute the following commands:
+SET GOARM=7 SET GOARCH=arm SET GOOS=linux flogo build -o  This will compile your application and place the binary in the bin directory.</description>
+    </item>
+    
+    <item>
+      <title>Flogo for BeagleBone</title>
+      <link>https://tibcosoftware.github.io/flogo/iot/device-beaglebone/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/iot/device-beaglebone/</guid>
+      <description>You can run your Flogo application on a BeagleBone device. This documents contains all relevant information on this device including how to build.
+Build To build a flogo application for BeagleBone, you simply use the build command with the appropriate enviroment variables set.
+On mac or linux you execute the following command:
+env GOARM=7 GOARCH=arm GOOS=linux flogo build -o  On windows you excute the following commands:
+SET GOARM=7 SET GOARCH=arm SET GOOS=linux flogo build -o  This will compile your application and place the binary in the bin directory.</description>
+    </item>
+    
+    <item>
+      <title>Building the docs website</title>
+      <link>https://tibcosoftware.github.io/flogo/contributing/contribute-to-docs/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://tibcosoftware.github.io/flogo/contributing/contribute-to-docs/</guid>
+      <description>If you want to contribute to the documentation, that is awesome! Your help is very much appreciated, but please do keep in mind the instructions below.
+Prerequisites These documentation pages are built with Hugo and we do make some assumptions:
+ You have Git 2.5 or greater installed on your machine. You have a GitHub account. Signing up for GitHub is free. You have Hugo installed on your machine.  In Hugo, pages are the core of your site.</description>
+    </item>
+    
+  </channel>
+</rss>
